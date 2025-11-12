@@ -111,9 +111,8 @@ export default function Auth() {
           return;
         }
 
-        toast.success("Account created! Please verify your phone number");
-        localStorage.setItem('firstLogin', 'true');
-        setStep(2);
+        toast.success("Account created successfully!");
+        navigate("/dashboard");
       }
     } catch (error) {
       if (error instanceof z.ZodError) {
