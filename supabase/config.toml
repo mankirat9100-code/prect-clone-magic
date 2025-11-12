@@ -1,0 +1,7 @@
+project_id = "hquosgsgwuvuhgfikorm"
+
+[functions.trevor-public-demo]
+verify_jwt = false
+
+[functions.property-chat]
+verify_jwt = false
